@@ -1,0 +1,256 @@
+ body {
+      background-color: lightblue;
+    }
+  /* @Media */
+/* X-Large devices (large desktops, less than 1400px) */
+  @media (max-width: 1399.98px) {}
+/* Large devices (desktops, less than 1200px) */
+  @media (max-width: 1199.98px) {}
+/* Medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) {
+    /* Bennar Part Start */
+    .bennar_overly {
+      padding-top: 200px;
+      padding-bottom: 180px;
+    }
+    /* Bennar Part End */
+
+    /* Video Part Start */
+    #video {
+      padding-top: 150px;
+      padding-bottom: 150px;
+    }
+    /* Video Part End */
+
+    /* Devie Part Start */
+    .device_content h3 {
+      font-size: 25px;
+      padding-top: 11px;
+      padding-bottom: 0px;
+    }
+    .device_content p {
+      font-size: 14px;
+      line-height: 21px;
+    }
+    .device_content_icon_group {
+      padding-left: 0px;
+      padding-top: 5px;
+    }
+    .device_content_icon_group li {
+      font-size: 12px;
+    }
+    .device_content_icon_group i {
+      font-size: 10px;
+      margin-right: 0px;
+    }
+    /* Devie Part End */
+
+    /* Counter Part Start */
+    #count {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .count_text i {
+      font-size: 35px;
+    }
+    .count_text h1 {
+      font-size: 29px;
+    }
+    .count_text p {
+      font-size: 10px;
+    }
+    /* Counter Part End */
+
+    /* recent Post Part Start */
+    #recent_post {
+      padding-top: 60px;
+      padding-bottom: 70px;
+    }
+    #recent_post .recent_icon {
+      bottom: 2rem;
+    }
+    /* recent Post Part End */
+
+    /* Second Overly Start */
+    .second_bennar_overly {
+      padding-top: 100px;
+      padding-bottom: 50px;
+    }
+    /* Second Overly End */
+
+    /* Footar Part Start */
+    #footer {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    /* Footar Part End */
+
+    /* Copy Part Start */
+    #copy {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .copy{
+      text-align: center!important;
+    }
+    /* Copy Part End */
+  }
+/* Small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) {
+    .bennar_overly {
+      padding-top: 180px;
+      padding-bottom: 180px;
+  }
+  .bennar_text h3 {
+      font-size: 45px;
+  }
+  .bennar_text2 h3 {
+      font-size: 45px;
+  }
+  /* Waxom Part */
+  .waxom_text h5 {
+      text-align: center;
+      font-size: 26px;
+  }
+
+  .waxom_text p {
+      text-align: center;
+  }
+
+  .sub_menu li {
+      font-size: 12px;
+      padding: 7px 11px;
+  }
+  /* Counter Part */
+  #count {
+      padding-top: 30px;
+      padding-bottom: 16px;
+  }
+  .count_text i {
+      font-size: 40px;
+  }
+  .count_text h1 {
+      font-size: 35px;
+  }
+  .count_text p {
+      font-size: 13px;
+  }
+  /* Second Bennar brand Logo */
+  .second_bennar_overly {
+      padding-top: 90px;
+      padding-bottom: 30px;
+  }
+  /* Footer */
+  .footer_item h3{
+      text-align: center;
+  }
+  .footer_item2 h3{
+      text-align: center;
+  }
+  #copy {
+      padding-top: 13px;
+      padding-bottom: 7px;
+      background: #111111;
+  }
+  .copy {
+      text-align: center;
+  }
+  .copy li {
+      display: inline-block;
+      color: #908686;
+      font-size: 12px;
+      margin-right: 8px;
+  }
+  .copy li a {
+      color: #fff;
+  }
+}
+
+  
+/* X-Small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .navbar-nav {
+      float: right;
+      text-align: center;
+      background: #0e1a338f;
+      border-radius: 5px;
+  }
+  .nav-item .nav-link {
+      border-bottom: 1px solid #3d3c3c;
+      transition: all linear .3s;
+  }
+
+  .nav-item .nav-link:hover {
+      border-bottom: 1px solid #1aff12;
+  }
+  /* Bennar Part */
+  .bennar_overly {
+      padding-top: 120px;
+      padding-bottom: 85px;
+  }
+  .bennar_text h4 {
+      font-size: 23px;
+  }
+  .bennar_text2 h4 {
+      font-size: 23px;
+  }
+  .bennar_text h3 {
+      font-size: 30px;
+  }
+  .bennar_text2 h3 {
+      font-size: 30px;
+  }
+
+  #service {
+      background: #72ecf270;
+  }
+
+  .waxom_text h5 {
+      text-align: center;
+      font-size: 18px;
+  }
+
+  .waxom_text p {
+      font-size: 12px;
+      text-align: center;
+  }
+
+  .waxom_button a {
+      font-size: 10px;
+      padding: 8px 17px !important;
+  }
+
+  .sub_menu li {
+      display: block;
+  }
+  /* Counter Part */
+  #count {
+      padding-top: 25px;
+      padding-bottom: 10px;
+  }
+  .count_text i {
+      font-size: 30px;
+  }
+  .count_text h1 {
+      font-size: 30px;
+  }
+  .count_text p {
+      font-size: 10px;
+  }
+  /* Second Bennar brand Logo */
+  .second_bennar_overly {
+      padding-top: 73px;
+      padding-bottom: 0px;
+  }
+
+
+}
+
+/* XX-Large devices (larger desktops) */
+/* No media query since the xxl breakpoint has no upper bound on its width */
+  
+
+
+
+
+

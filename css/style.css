@@ -1,0 +1,998 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+/* All common Css End */
+.navbar {
+    /* position: fixed; */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: all linear .3s;
+    z-index: 9999;
+
+}
+
+.navbar-nav {
+    float: right;
+    text-align: right;
+}
+
+.nav-item a {
+    color: #ffffff !important;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    padding-left: 14px !important;
+}
+
+.navbar-toggler {
+    background: springgreen;
+}
+
+.nav-item a:hover {
+    color: #c7b299 !important;
+}
+
+/* Bootstrap Overright css */
+.navbar-toggler:hover {
+    text-decoration: none;
+    background: #b6c4c0f0;
+}
+
+.navbar-toggler {
+    background: #9c9f9ef0;
+}
+
+/* javascript addClass *****************/
+.add {
+    background: rgba(0, 0, 0, 0.864);
+    position: fixed;
+    transition: all linear .3s;
+    animation: alamin 2s;
+}
+
+@keyframes alamin {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+/* javascript addClass End****************/
+
+/* Bennar Part Start============== */
+#bennar {
+    /* position: relative; */
+    background: url(../images/banner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bennar_overly {
+    padding-top: 380px;
+    padding-bottom: 380px;
+    background: rgba(1, 1, 1, 0.7);
+}
+
+.bennar_text h4 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+
+}
+.bennar_text2 h4 {
+    background: -webkit-linear-gradient(rgb(233, 17, 17), rgb(115, 226, 12));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.bennar_text h3 {
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+
+}
+.bennar_text2 h3 {
+    background: -webkit-linear-gradient(rgb(233, 211, 17), rgb(12, 44, 226));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 52px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.bennar_text2 p {
+    color: #168aad;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 47px;
+
+}
+.bennar_text p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 47px;
+
+}
+
+.bennar_text a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 14px;
+    font-family: 'Raleway', sans-serif;
+    padding: 21px 45px 18px;
+    background: #998675;
+    border-radius: 5px;
+    border-bottom: 3px solid #736357;
+    transition: all linear .4s;
+}
+.bennar_text2 a {
+    color: #ad1ca6;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 14px;
+    font-family: 'Raleway', sans-serif;
+    padding: 21px 45px 18px;
+    background: #a76e3d;
+    border-radius: 5px;
+    border-bottom: 3px solid #736357;
+    transition: all linear .4s;
+}
+
+.bennar_text a:hover {
+    background: linear-gradient(to left, #211b19, #4e3427);
+}
+
+/* Bennar Part End============== */
+
+/*Service Part Start===========*/
+#service {
+    padding-top: 80px;
+    /* padding-bottom: 80px; */
+}
+
+.service_item {
+    padding-bottom: 80px;
+}
+
+.service_item i {
+    font-size: 48px;
+    color: #555555;
+    transition: all linear .3s;
+}
+
+.service_item h3 {
+    color: #555;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    transition: all linear .3s;
+
+}
+
+.service_item p {
+    color: #8c8c8c;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    width: 255px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.service_item p::after {
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    background: #f1eee9;
+    content: "";
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: all linear .3s;
+}
+
+.service_item:hover.service_item i {
+    color: #c7b299;
+}
+
+.service_item:hover.service_item h3 {
+    color: #c7b299;
+}
+
+.service_item:hover.service_item p::after {
+    background: #c7b299;
+}
+
+/*Service Part End====================*/
+
+/* Theme Part Strat */
+#idea {
+    padding-top: 75px;
+    background: #fbfaf8;
+}
+
+.idea_content h4 {
+    color: #555555;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.idea_content p {
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    /* width: 770px;
+    margin: 0 auto; */
+}
+
+.gellarys {
+    padding-top: 20px;
+}
+
+/* Theme Part End */
+
+/* Waxom button part start */
+#waxom {
+    padding-top: 42px;
+    padding-bottom: 24px;
+    background: linear-gradient(to right, #211b19, #4e3427);
+}
+
+.waxom_text h5 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.waxom_text h5 span {
+    color: #c7b299;
+}
+
+.waxom_text p {
+    color: #615855;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#waxom .waxom_button a {
+    color: #ffffff;
+    background: #998675;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+    transition: all linear .4s;
+}
+
+#waxom .waxom_button a:hover {
+    background: linear-gradient(to left, #211b19, #4e3427);
+}
+
+/* Waxom button part End ===================*/
+#project {
+    padding-top: 75px;
+}
+
+.project_content h3 {
+    font-size: 30px;
+    color: #555555;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.project_content p {
+    font-size: 16px;
+    color: #8c8c8c;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+}
+
+.sub_menu li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.sub_menu .btn-active {
+    background: #746457;
+    color: #ffffff;
+}
+
+.sub_menu li {
+    font-size: 14px;
+    font-weight: 500px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 26px;
+    background: #ffffff;
+    color: #8c8c8c;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    transition: all linear .2s;
+}
+
+.sub_menu li:hover {
+    background: linear-gradient(to left, #211b19, #4e3427);
+    color: #ffffff;
+}
+
+/* Letest Project Part Star ================*/
+.project_group {
+    padding-top: 23px;
+    padding-bottom: 80px;
+}
+
+.project_item_colum {
+    margin-bottom: 15px;
+}
+
+.project_item {
+    cursor: help;
+}
+
+.item_img {
+    position: relative;
+}
+
+.item_img img {
+    width: 100%;
+}
+
+.item_overly {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.707);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all linear .2s;
+}
+
+.item_overly a {
+    margin-top: 31%;
+    padding-left: 10px;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.item_overly a span {
+    color: #ffffff;
+}
+
+.item_text {
+    background: #fbfaf8;
+    position: relative;
+    transition: all linear .2s;
+}
+
+.shep {
+    width: 25px;
+    height: 25px;
+    background: #fbfaf8;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 20px;
+    top: -8px;
+    z-index: 999;
+    transition: all linear .2s;
+}
+
+.item_text h4 {
+    color: #c7b299;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    padding-left: 30px;
+    padding-top: 30px;
+    transition: all linear .2s;
+
+}
+
+.item_text p {
+    color: #d1d1d1;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    transition: all linear .2s;
+}
+
+.project_button a {
+    color: #ffffff;
+    background: #998675;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+    transition: all linear .4s;
+}
+
+.fa-link:hover {
+    color: #c7b299;
+}
+
+.fa-search:hover {
+    color: #c7b299;
+}
+
+.project_button a:hover {
+    background: linear-gradient(to left, #211b19, #4e3427);
+}
+
+.project_item:hover .item_text {
+    background: #362f2d;
+}
+
+.project_item:hover .shep {
+    background: #362f2d;
+}
+
+.project_item:hover .item_overly {
+    opacity: 1;
+}
+
+.project_item:hover h4 {
+    color: #ffffff;
+}
+
+.project_item:hover p {
+    color: #c7b299;
+}
+
+/* Letest Project Part End=============== */
+
+/* Waxom Video Presentation Part Start */
+#video {
+    background: url(../images/Venobox-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+
+.video_content_icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #00000059;
+    text-align: center;
+    overflow: hidden;
+}
+
+.video_content_icon a {
+
+    color: #ffffff;
+    font-size: 74px;
+    line-height: 100px;
+    display: block;
+}
+
+.video_content h2 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.video_content p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+    width: 563px;
+    margin: 0 auto;
+}
+
+/* Waxom Video Presentation Part End */
+
+#device {
+    padding-top: 80px;
+    background: #fbfaf8;
+}
+
+.device_content h3 {
+    font-size: 30px;
+    color: #555555;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 85px;
+    padding-bottom: 27px;
+}
+
+.device_content p {
+    font-size: 15px;
+    color: #8c8c8c;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+}
+
+.device_content_icon_group {
+    padding-left: 55px;
+    list-style: none;
+    padding-top: 18px;
+}
+
+.device_content_icon_group li {
+    padding-bottom: 10px;
+    color: #8c8c8c;
+}
+
+/* ++++Test For Anather Way+++!!!!!! */
+/* .device_icon{
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #c7b299;
+    text-align: center;
+}
+.device_content_icon_group span {
+	font-size: 11px;
+	color: #ffffff;
+	border-radius: 50%;
+	background: #c7b299;
+	padding-right: 10px;
+	margin-right: 30px;
+	text-align: center;
+	padding: 3px 6px;
+}
+.device_content_icon_group span i{
+    margin-left: 4px;
+} */
+.device_content_icon_group i {
+    color: #ffffff;
+    background: #c7b299;
+    padding: 5px 8px;
+    border-radius: 50%;
+    font-size: 11px;
+    margin-right: 24px;
+}
+
+/* Counter Up Part Start================== */
+#count {
+    padding-top: 69px;
+    padding-bottom: 60px;
+    background: linear-gradient(to right, #211b19, #4e3427);
+}
+
+.count_text i {
+    color: #c7b299;
+    font-size: 46px;
+}
+
+.count_text h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 18px;
+    padding-bottom: 5px;
+}
+
+.count_text p {
+    font-size: 14px;
+    color: #c7b299;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+.count_text p::after{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #ffffff;
+    left: 50%;
+    bottom: -11px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+/* Counter Up Part End================== */
+
+/* Recent Posts Part Start============== */
+#recent_post {
+    padding-top: 75px;
+    padding-bottom: 140px;
+    position: relative;
+}
+
+.post_heading h3 {
+    font-size: 30px;
+    color: #555555;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.post_heading p {
+    font-size: 16px;
+    color: #8c8c8c;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+
+#recent_post .recent_icon {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3rem;
+}
+
+.left_arr {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #cab79f;
+    margin-right: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.left_arr i {
+    color: #cab79f;
+    font-size: 12px;
+    font-weight: 800;
+    display: block;
+    line-height: 18px;
+}
+
+.right_arr {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #cab79f;
+    text-align: center;
+    cursor: pointer;
+}
+
+.right_arr i {
+    color: #cab79f;
+    font-size: 12px;
+    font-weight: 800;
+    display: block;
+    line-height: 18px;
+}
+
+.post_img {
+    position: relative;
+}
+
+.post_img img {
+    width: 102%;
+    height: 102%;
+}
+
+.post_img_text {
+    padding-left: 20px;
+    text-align: left;
+    transition: all linear .4s;
+}
+
+.post_img_text h4 {
+    font-size: 20px;
+    color: #555555;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 26px;
+    padding-bottom: 15px;
+    transition: all linear .4s;
+}
+
+.post_img_text p {
+    font-size: 16px;
+    color: #8c8c8c;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+    transition: all linear .4s;
+}
+
+.post_img_text a {
+    font-size: 14px;
+    color: #c7b299;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+    transition: all linear .4s;
+}
+
+.post_img_text a i {
+    padding-left: 10px;
+}
+
+.post_overly {
+    width: 100%;
+    height: 100%;
+    background: rgba(54, 47, 45, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all linear .4s;
+}
+
+.post_item:hover .post_overly {
+    opacity: 1;
+}
+
+.post_item:hover .post_img_text {
+    background: #362f2d;
+}
+
+.post_item:hover .post_img_text h4 {
+    color: #c7b299;
+}
+
+.post_item:hover .post_img_text p {
+    color: #ffffff;
+}
+
+.post_item:hover .post_img_text a {
+    color: #c7b299;
+}
+
+/* Recent Posts Part End============== */
+
+
+/* 2nd bennar Part Start */
+#second_bennar {
+
+    background: url(../images/bennar-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.second_bennar_overly {
+    background: rgba(1, 1, 1, 0.7);
+    padding-top: 140px;
+    padding-bottom: 105px;
+}
+
+/* 2nd bennar Part End */
+
+/* Footer Part Start=================== */
+#footer {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: #191919;
+}
+
+.footer_item .footer_logo {
+    padding-bottom: 30px;
+    margin-top: -21px;
+}
+
+.footer_item h3 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 30px;
+}
+
+.footer_item p {
+    font-size: 13px;
+    color: #555555;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+}
+/* Footer Item 2 */
+.footer_item2 h3 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 30px;
+}
+.footer_item2 h6 {
+    font-size: 12px;
+    color: #363636;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    transition:all linear .3s;
+}
+
+.footer_item2 p {
+    font-size: 13px;
+    color: #555555;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    padding-bottom: 22px;
+    transition:all linear .3s;
+}
+.footer_item2 .footer_item_text:hover h6{
+color: #ffffff;
+}
+.footer_item2 .footer_item_text:hover p{
+color: #c7b299;
+}
+
+
+
+.footer_item p a {
+    color: #00bff3;
+}
+
+.footer_item h6 {
+    font-size: 12px;
+    color: #363636;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 6px;
+}
+
+.footer_item h6 span {
+    color: #ffffff;
+}
+
+.footer_item .read_more {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    transition: all linear .4s;
+}
+
+.footer_item .read_more i {
+    padding-left: 10px;
+}
+
+.footer_item .footer_img_right {
+    margin-left: -20px !important;
+}
+
+.footer_item .footer_item_text p {
+    margin-bottom: 0 !important;
+}
+
+.footer_item .footer_item_text {
+    padding-bottom: 32px;
+}
+.footer_item2 .footer_item_text {
+    margin-top: 10px;
+}
+
+/* For shep */
+.after {
+    position: relative;
+}
+
+.after::after {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #252525;
+    content: '';
+    left: 0;
+    bottom: 6px;
+}
+
+.befor {
+    position: relative;
+}
+
+.befor::before {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #252525;
+    content: '';
+    left: 0;
+    bottom: 15px;
+}
+
+/* Footer Part End=================== */
+
+/* Copy Part Start=================== */
+#copy {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background: #111111;
+}
+
+.copy li {
+    display: inline-block;
+    color: #555555;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 25px;
+}
+
+.copy li a {
+    color: #959595;
+}
+
+.copy li a span {
+    color: #c7b299;
+}
+
+/* Copy Part end=================== */
+
